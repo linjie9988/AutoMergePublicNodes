@@ -28,15 +28,17 @@ proxies:
     headers:
       Host: cd-sr1.k8k8110.com
     path: /
-- name: '🇬🇧[www.v2nodes.com] vless-GB-1... #4'
+- grpc-opts:
+    grpc-service-name: vless
+  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #4'
+  network: grpc
   port: 2083
   server: 66.90.104.42
-  tls: false
+  servername: /telegram_tm(@azarbayjab1),telegram_tm(@azarbayjab1),telegram_tm(@azarbayjab1),telegram_tm(@azarbayjab1),telegram_tm(@azarbayjab1),telegram_tm(@azarbayjab1),telegram_tm(@azarbayjab1
+  tls: true
   type: vless
   uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-- client-fingerprint: ''
-  encryption: none
-  grpc-opts:
+- grpc-opts:
     grpc-service-name: vless
   name: '🇬🇧[www.v2nodes.com] vless-GB-1... #5'
   network: grpc

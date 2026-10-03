@@ -64,9 +64,15 @@ proxies:
   uuid: 5aae7d2d-c152-42cc-afb6-fe805fb94531
   ws-opts:
     path: /
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #10'
+  port: 40443
+  server: arcturus.yokkastars.com
+  tls: false
+  type: vless
+  uuid: bb0f1ed0-0298-40a1-adb1-1f5d6ab33d54
 - client-fingerprint: random
   encryption: none
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #11'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #12'
   network: ws
   port: 443
   server: 84.38.183.237
